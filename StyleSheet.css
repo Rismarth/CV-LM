@@ -1,48 +1,60 @@
-            body {                
-                background-image: url('https://www.sta-portage.com/wp-content/uploads/2021/09/le-portage-salarial-developpeur-web-1.jpg');
-                background-size: cover; /* pour couvrir toute la surface */
-                background-position: center; /* pour centrer l'image */
-            }
-            text {
-                color: lightgrey
-            }
+body {                
+    background-image: url('https://www.sta-portage.com/wp-content/uploads/2021/09/le-portage-salarial-developpeur-web-1.jpg');
+    background-size: cover; /* pour couvrir toute la surface */
+    background-position: center; /* pour centrer l'image */
+    background-attachment: fixed;
+}
+text {
+    color: lightgrey
+}
 
-            header {
-                background-color: #33333375;
-                color: #fff;
-                padding: 20px;
-                text-align: center;
-                
-            }
+header {
+    background-color: #33333375;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    
+}
 
-            main {
-                background-color: #33333375;
-                color: whitesmoke;
-                font-size: 18px;
-                padding: 20px;
-                text-align: center;              
-            }
+#a_propos {
+    background-color: #33333375;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 1%;
+    padding: 20px;
+    text-align: center;              
+}
+#mes_competences {
+    background-color: #33333375;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 1%;
+    padding: 20px;
+    text-align: center;  
+}
+    section {
+    margin-bottom: 20px;
+}
 
-            section {
-                margin-bottom: 20px;
-            }
+#boutons {
+    padding: 10px 20px;
+    background-color: #33333375;
+    color: #fff;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Ajoute une transition fluide */
+}
 
-            button {
-                padding: 10px 20px;
-                background-color: #007bff;
-                color: #fff;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
+#boutons:hover {
+    background-color: #0056b3; /* Change la couleur au survol */
+}
 
-            button:hover {
-                background-color: #0056b3;
-            }
-
-            footer {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 10px 0;
-            }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
