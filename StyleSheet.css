@@ -41,16 +41,70 @@ header {
     padding: 20px;
     text-align: center;  
 }
+.auteur {
+    position: relative;
+    display: inline-block;
+}
+
+.image_auteur {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); /* Positionner l'image sous le paragraphe */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* Largeur fixe pour toutes les images */
+    height: auto; /* Laisse la hauteur ajuster automatiquement en conservant le ratio */
+}
+
+.auteur:hover .image_auteur {
+    display: block;
+}
+
+.jeu {
+    position: relative;
+    display: inline-block;
+}
+
+.image_jeu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px); /* Positionner l'image sous le paragraphe */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px; /* Largeur fixe pour toutes les images */
+    height: auto; /* Laisse la hauteur ajuster automatiquement en conservant le ratio */
+}
+    
+
+.jeu:hover .image_jeu {
+    display: block;
+    
+}
+
+#link {
+    background-color: #33333375;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 1%;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact-link {
+    color: lightgray; /* Couleur du lien */
+    text-decoration: none; /* Pour supprimer le soulignement par défaut du lien */
+}
+
+#contact-link:hover {
+    color: lightseagreen; /* Couleur du lien au survol */
+}
 
 .taille {
     width: 200px;
     height: auto
 }
-section {
-    margin-bottom: 20px;
-}
 
-#boutons {
+.boutons {
     padding: 10px 20px;
     background-color: #33333375;
     color: #fff;
@@ -61,7 +115,7 @@ section {
     transition: background-color 0.3s ease; /* Ajoute une transition fluide */
 }
 
-#boutons:hover {
+.boutons:hover {
     background-color: #0056b3; /* Change la couleur au survol */
 }
 
@@ -69,5 +123,6 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+    margin: 1%;
     padding: 10px 0;
 }
