@@ -9,16 +9,16 @@ text {
 }
 
 header {
-    background-color: #33333375;
+    background-color: #333333;
     color: #fff;
-    margin: 10px;
+    margin: 1%;
     padding: 20px;
     text-align: center;
     
 }
 
 #a_propos {
-    background-color: #33333375;
+    background-color: #33333391;
     color: whitesmoke;
     font-size: 20px;
     margin: 1%;
@@ -26,7 +26,7 @@ header {
     text-align: center;              
 }
 #mes_competences {
-    background-color: #33333375;
+    background-color: #33333391;
     color: whitesmoke;
     font-size: 20px;
     margin: 1%;
@@ -34,7 +34,7 @@ header {
     text-align: center;  
 }
 #loisirs-hobbies {
-    background-color: #33333375;
+    background-color: #33333391;
     color: whitesmoke;
     font-size: 20px;
     margin: 1%;
@@ -44,6 +44,7 @@ header {
 .auteur {
     position: relative;
     display: inline-block;
+    z-index: 2;
 }
 
 .image_auteur {
@@ -52,7 +53,7 @@ header {
     top: calc(100% + 5px); /* Positionner l'image sous le paragraphe */
     left: 50%;
     transform: translateX(-50%);
-    width: 50%; /* Largeur fixe pour toutes les images */
+    width: 150px; /* Largeur fixe pour toutes les images */
     height: auto; /* Laisse la hauteur ajuster automatiquement en conservant le ratio */
 }
 
@@ -63,6 +64,7 @@ header {
 .jeu {
     position: relative;
     display: inline-block;
+    z-index: 1;
 }
 
 .image_jeu {
